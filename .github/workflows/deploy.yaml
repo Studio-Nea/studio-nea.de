@@ -28,11 +28,7 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /webseiten/dev.studio-nea.de/
-        exclude:
-          - "**/.git*"
-          - "**/.git*/**"
-          - "**/node_modules/**"
-          - "./kirby/**"
+        exclude: "[**/.git*/**, **/node_modules/**, **/kirby]"
 
     - name: 👁 Update Deployment Status
       uses: bobheadxi/deployments@v0.4.3
