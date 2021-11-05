@@ -28,8 +28,9 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /webseiten/dev.studio-nea.de/
+        exclude: ./kirby/**
 
-    - name: Update Deployment Status
+    - name: 👁 Update Deployment Status
       uses: bobheadxi/deployments@v0.4.3
       if: always()
       with:
