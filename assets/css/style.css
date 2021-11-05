@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'GT-Haptik-Medium';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('../fonts/GT-Haptik-Medium.woff2') format('woff2'), url('../fonts/GT-Haptik-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GT-Haptik-Medium-Rotalic';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('../fonts/GT-Haptik-Medium-Rotalic.woff2') format('woff2'), url('../fonts/GT-Haptik-Medium-Rotalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GT-Haptik-Medium-Oblique';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('../fonts/GT-Haptik-Medium-Oblique.woff2') format('woff2'), url('../fonts/GT-Haptik-Medium-Oblique.woff') format('woff');
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: currentColor;
+}
+
+html {
+    font-family: sans-serif;
+    cursor: url('data:image/svg+xml;charset=UTF-8,<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="16" cy="16" r="15" fill-rule="evenodd"/></svg>'), auto;
+}
+
+body {
+    font-family: 'GT-Haptik-Medium';
+    display: grid;
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.switch {
+    position: fixed;
+    top: 80px;
+    right: 80px;
+    display: block;
+    width: 105px;
+    height: 105px;
+    background: url('../images/switch.svg') no-repeat center center;
+    animation: rotating 3s linear infinite;
+}
+
+.blue {
+    background: #2C5993;
+}
+
+.red {
+    background: #DC302B;
+}
+
+.pink {
+    background: #EFA3C0;
+}
+
+#container {
+    margin: auto;
+}
