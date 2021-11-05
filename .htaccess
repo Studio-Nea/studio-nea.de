@@ -20,7 +20,7 @@ RewriteEngine on
 # In some environments it's necessary to
 # set the RewriteBase to:
 #
- RewriteBase /
+RewriteBase /
 
 # block files and folders beginning with a dot, such as .git
 # except for the .well-known folder, which is used for Let's Encrypt and security.txt
@@ -60,4 +60,6 @@ AddOutputFilterByType DEFLATE application/x-javascript
 AuthType Basic 
 AuthName "Only Kollegi" 
 AuthUserFile /kunden/311721_38100/webseiten/dev.studio-nea.de/.htusers
-require valid-user
+Require valid-user
+Allow from 127.0.0.1
+Satisfy Any
