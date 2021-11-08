@@ -39,6 +39,7 @@ html {
 body {
     font-family: 'GT-Haptik-Medium';
     display: grid;
+    background: white;
 }
 
 @keyframes rotating {
