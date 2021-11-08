@@ -39,7 +39,7 @@ html {
 body {
     font-family: 'GT-Haptik-Medium';
     display: grid;
-    background: white;
+    background: #EFA3C0;
 }
 
 @keyframes rotating {
@@ -60,6 +60,14 @@ body {
     height: 105px;
     background: url('../images/switch.svg') no-repeat center center;
     animation: rotating 3s linear infinite;
+}
+
+.menu a {
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #DC302B;
 }
 
 .blue {
