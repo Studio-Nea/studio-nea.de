@@ -14,7 +14,7 @@
                 <a class="menu-shop" href="#">Shop</a>
                 <a class="menu-contact rotate" href="#">Contact</a>
                 <a class="menu-work" href="#">Work</a>
-                <a class="menu-studio rotate" href="#">Work</a>
+                <a class="menu-studio rotate" href="#">Studio</a>
             </nav>
         </header>
         <div id="container">
