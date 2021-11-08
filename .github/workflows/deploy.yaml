@@ -31,6 +31,7 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /webseiten/dev.studio-nea.de/
+        dry-run: true
         exclude: >
           - **/.git*
           - **/.git*/**
