@@ -41,4 +41,4 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         status: ${{ job.status }}
         deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-        env_url: https://dev.studio-nea.de
+        env_url: http://dev.studio-nea.de
