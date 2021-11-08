@@ -20,10 +20,10 @@ jobs:
 
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
-    
+
     - name: 🧱 Checkout Theme
       run: git submodule update --init --recursive
-    
+
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
@@ -31,12 +31,7 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /webseiten/dev.studio-nea.de/
-        dry-run: true
-        exclude: >
-          - **/.git*
-          - **/.git*/**
-          - **/node_modules/**
-          - **/kirby/**
+        exclude: '[.git*, .git*/**, **/.git*/**, node_modules/**, node_modules/**/*, kirby/**, kirby/**/*, **/kirby/**, **/kirby/**/*]'
 
     - name: 👁 Update Deployment Status
       uses: bobheadxi/deployments@v0.4.3
