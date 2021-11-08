@@ -13,7 +13,7 @@ First download the app from [their website](https://desktop.github.com/). Once i
 
 Select it and click on `Clone Studio-Nea/studio-nea.de`. A modal will ask you for the Local Path to clone the source code to. Pick a directory that works for you (ideally where you have setup MAMP or whatever PHP server you use for local development) and submit with clicking on `Clone`.
 
-## Make Changes
+### Make Changes
 
 You can now make changes to your local copy of the source code. After you are done you will see all changes in the GitHub app, e.g.:
 
@@ -21,13 +21,31 @@ You can now make changes to your local copy of the source code. After you are do
 
 Have a check if all these changes are correct and if so commit them. You can do this by adding a comment about what you changed in the input box at the bottom right (next to your profile icon). If you like to add a broader description, use the textarea to do so but it is not mandatory. Only writing a short commit message is required.
 
-## Push Changes Upstream
+### Push Changes Upstream
 
 After you are done, you can push changes upstream. For that click on the button in the main window or at the top of the app, e.g.:
 
 ![Changes GitHub App](./.github/assets/pushUpstream.png "Changes in GitHub App")
 
 That's it!
+
+## Setup via Terminal
+
+You can also use the command line interface and the `git` command directly. First, make sure you have `git` installed on your machine. Check out the [project docs](https://git-scm.com/downloads) for more information on that. You can verify if `git` is installed by entering:
+
+```sh
+$ git --version
+git version 2.24.3 (Apple Git-128)
+```
+
+Next, clone the repository via:
+
+```sh
+$ cd /path/to/your/workspace
+$ git clone git@github.com:Studio-Nea/studio-nea.de.git
+```
+
+It should clone the project into `/path/to/your/workspace/studio-nea.de`. Make sure you replace the example path with a path where you actually like to download the project.
 
 # Deployment
 
