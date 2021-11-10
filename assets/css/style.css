@@ -81,22 +81,6 @@ body {
     bottom: 40px;
 }
 
-.menu-item.rotate {
-    top: 50%;
-    width: 40px;
-    height: 100%;
-}
-
-.menu-item.right {
-    right: -60px;
-    transform: rotate(90deg);
-}
-
-.menu-item.left {
-    left: -35px;
-    transform: rotate(-90deg);
-}
-
 .menu-link {
     font-size: 40px;
     line-height: 40px;
