@@ -11,10 +11,18 @@
         <header>
             <a class="switch" href="#"></a>
             <nav class="menu">
-                <a class="menu-shop" href="#">Shop</a>
-                <a class="menu-contact rotate" href="#">Contact</a>
-                <a class="menu-work" href="#">Work</a>
-                <a class="menu-studio rotate" href="#">Studio</a>
+                <div class="menu-item top horizontal">
+                    <a class="menu-link shop" href="#">Shop</a>
+                </div>
+                <div class="menu-item right rotate">
+                    <a class="menu-link contact" href="#">Contact</a>
+                </div>
+                <div class="menu-item bottom horizontal">
+                    <a class="menu-link work" href="#">Work</a>
+                </div>
+                <div class="menu-item left rotate">
+                    <a class="menu-link studio" href="#">Studio</a>
+                </div>           
             </nav>
         </header>
         <div id="container">
