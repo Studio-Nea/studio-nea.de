@@ -81,6 +81,35 @@ body {
     bottom: 40px;
 }
 
+.menu-item.rotate {
+    top: 0;
+    height: 100%;
+    width: 40px;
+}
+
+.menu-item.right {
+    right: 40px;
+}
+
+.menu-item.left {
+    left: 40px;
+    text-align: center;
+}
+
+.menu-item.rotate .menu-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.menu-item.left .menu-link {
+    transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+}
+
+.menu-item.right .menu-link {
+    transform: translateX(-50%) translateY(-50%) rotate(90deg);
+}
+
 .menu-link {
     font-size: 40px;
     line-height: 40px;
