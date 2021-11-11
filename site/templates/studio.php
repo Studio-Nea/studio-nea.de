@@ -1,15 +1,15 @@
 <?php snippet('header') ?>
                 <div class="menu-item top horizontal">
-                    <a class="menu-link shop" href="#">Shop</a>
+                    <a class="menu-link shop" href="<?= $site->url() ?>/shop">Shop</a>
                 </div>
                 <div class="menu-item right rotate">
-                    <a class="menu-link contact" href="#">Start</a>
+                    <a class="menu-link contact" href="<?= $site->url() ?>">Start</a>
                 </div>
                 <div class="menu-item bottom horizontal">
-                    <a class="menu-link work" href="#">Work</a>
+                    <a class="menu-link work" href="<?= $site->url() ?>/work">Work</a>
                 </div>
                 <div class="menu-item left rotate">
-                    <a class="menu-link studio" href="#">Contact</a>
+                    <a class="menu-link studio" href="<?= $site->url() ?>/contact">Contact</a>
                 </div>           
             </nav>
         </header>

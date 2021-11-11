@@ -1,1 +1,7 @@
 Title: Contact
+----
+Column1:
+----
+Column2: ...
+----
+Column3: ...
