@@ -139,3 +139,30 @@ body {
 #container {
     margin: auto;
 }
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 0px 40px;
+    grid-auto-flow: row;
+}
+
+.grid-2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: ". .";
+}
+  
+.grid-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: ". . .";
+}
+
+.grid-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". . . .";
+}
+
+.grid-5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". . . . .";
+}

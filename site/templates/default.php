@@ -26,8 +26,12 @@
             </nav>
         </header>
         <div id="container">
-            <h1><?= $page->title() ?></h1>
-            <?= $page->text() ?>
+            <div class="grid grid-2">
+                <div class="column">
+                    <h1><?= $page->title() ?></h1>
+                    <?= $page->text() ?>
+                </div>
+            </div>
         </div>
         <footer>
 
