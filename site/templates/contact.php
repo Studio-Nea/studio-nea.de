@@ -15,9 +15,10 @@
         </header>
         <div id="container">
             <div class="layer">
-                <h1><?= $page->title() ?></h1>
-                <?= $page->text() ?>
-                return '<div class="grid">' . implode($html) . '</div>';
+                <div class="grid grid-2">
+                    <h1><?= $page->title() ?></h1>
+                    <?= $page->text() ?>
+                </div>
             </div>
         </div>
 <?php snippet('footer') ?>
