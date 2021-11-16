@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
                 <div class="menu-item bottom horizontal">
-                    <a class="menu-link start" href="<?= $site->url() ?>/start">Start</a>
+                    <a class="menu-link start" href="<?= $site->url() ?>">Start</a>
                 </div>         
             </nav>
         </header>
