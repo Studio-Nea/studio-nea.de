@@ -167,3 +167,19 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: ". . . . .";
 }
+
+@media (max-width: 1400px) {
+    
+}
+
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 600px) {
+    
+}
+
+@media (max-width: 320px) {
+    
+}
