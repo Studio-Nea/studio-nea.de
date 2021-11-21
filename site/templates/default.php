@@ -15,9 +15,10 @@
         </header>
         <div id="container">
             <div class="layer">
+            <h1><?= $page->title() ?></h1>
+            <?= $page->text() ?>
                 <div class="grid grid-2">
-                    <h1><?= $page->title() ?></h1>
-                    <?= $page->text() ?>
+                    <div class="grid-item"></div>
                 </div>
             </div>
         </div>

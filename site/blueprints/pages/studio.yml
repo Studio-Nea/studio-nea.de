@@ -1,0 +1,23 @@
+title: Studio
+preset: page
+fields:
+  text:
+    label: Text
+    type: textarea
+    size: large
+  textfirst:
+    label: Erste Spalte
+    type: textarea
+    width: 1/2
+  textsecond:
+    label: Zweite Spalte
+    type: textarea
+    width: 1/2
+  textthird:
+    label: Dritte Spalte
+    type: textarea
+    width: 1/2
+  textfourth:
+    label: Vierte Spalte
+    type: textarea
+    width: 1/2

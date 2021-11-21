@@ -9,9 +9,21 @@
         </header>
         <div id="container">
             <div class="layer">
-                <div class="grid grid-2">
-                    <h1><?= $page->title() ?></h1>
-                    <?= $page->text() ?>
+            <h1><?= $page->title() ?></h1>
+            <?= $page->text() ?>
+                <div class="grid grid-4">
+                    <div class="grid-item">
+                        <?= $page->textfirst()->kt() ?>
+                    </div>
+                    <div class="grid-item">
+                        <?= $page->textsecond()->kt() ?>
+                    </div>
+                    <div class="grid-item">
+                        <?= $page->textthird()->kt() ?>
+                    </div>
+                    <div class="grid-item">
+                        <?= $page->textfourth()->kt() ?>
+                    </div>
                 </div>
             </div>
         </div>
