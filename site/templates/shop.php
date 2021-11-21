@@ -9,8 +9,7 @@
                 <div class="layer">
                     <h1><?= $page->title() ?></h1>
                     <?= $page->text() ?>
-                    <div class="grid grid-2">
-                    </div>
+                    <div class="grid grid-2"></div>
                 </div>
             </section>
         </div>

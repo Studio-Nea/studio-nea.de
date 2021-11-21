@@ -8,8 +8,8 @@
             </nav>
         </header>
         <div id="container">
-            <div class="layer">
-                <section>
+            <section>
+                <div class="layer">
                     <h1><?= $page->title() ?></h1>
                     <?= $page->text() ?>
                     <div class="grid grid-4">
@@ -26,7 +26,7 @@
                             <?= $page->textfourth()->kt() ?>
                         </div>
                     </div>
-                </section>
-            </div>
+                </div>
+            </section>
         </div>
 <?php snippet('footer') ?>
