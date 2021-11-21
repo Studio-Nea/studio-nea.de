@@ -12,6 +12,10 @@
                 <div class="layer">
                     <h1><?= $page->title() ?></h1>
                     <?= $page->text() ?>
+                </div>
+            </section>
+            <section>
+                <div class="layer">
                     <div class="grid grid-4">
                         <div class="grid-item">
                             <?= $page->textfirst()->kt() ?>
