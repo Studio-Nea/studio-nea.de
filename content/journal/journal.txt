@@ -1,1 +1,3 @@
 Title: Journal
+----
+Text: ...
