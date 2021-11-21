@@ -2,7 +2,7 @@ title: Default Page
 preset: page
 fields:
   text:
-    label: Text
+    label: Intro
     type: textarea
     size: large
 

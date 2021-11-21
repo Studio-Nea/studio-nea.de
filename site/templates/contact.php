@@ -8,11 +8,20 @@
             </nav>
         </header>
         <div id="container">
-            <div class="layer">
-                <div class="grid grid-2">
-                    <h1><?= $page->title() ?></h1>
-                    <?= $page->text() ?>
+            <section>
+                <div class="layer">
+                    <div class="grid grid-3">
+                        <div class="grid-item">
+                            <?= $page->textfirst()->kt() ?>
+                        </div>
+                        <div class="grid-item">
+                            <?= $page->textsecond()->kt() ?>
+                        </div>
+                        <div class="grid-item">
+                            <?= $page->textthird()->kt() ?>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
         </div>
 <?php snippet('footer') ?>

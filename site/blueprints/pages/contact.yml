@@ -1,23 +1,15 @@
-title: Studio
+title: Contact
 preset: page
 fields:
-  text:
-    label: Text
-    type: textarea
-    size: large
   textfirst:
     label: Erste Spalte
     type: textarea
-    width: 1/4
+    width: 1/3
   textsecond:
     label: Zweite Spalte
     type: textarea
-    width: 1/4
+    width: 1/3
   textthird:
     label: Dritte Spalte
     type: textarea
-    width: 1/4
-  textfourth:
-    label: Vierte Spalte
-    type: textarea
-    width: 1/4
+    width: 1/3

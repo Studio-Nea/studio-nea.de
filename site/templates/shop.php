@@ -5,11 +5,13 @@
             </nav>
         </header>
         <div id="container">
-            <div class="layer">
-                <div class="grid grid-2">
+            <section>
+                <div class="layer">
                     <h1><?= $page->title() ?></h1>
                     <?= $page->text() ?>
+                    <div class="grid grid-2">
+                    </div>
                 </div>
-            </div>
+            </section>
         </div>
 <?php snippet('footer') ?>
