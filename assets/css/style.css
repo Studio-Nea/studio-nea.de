@@ -40,6 +40,19 @@ body {
     font-family: 'GT-Haptik-Medium';
     display: grid;
     background: #EFA3C0;
+    color: white;
+}
+
+.page-studio {
+    background: #DC302B;
+}
+
+.page-contact {
+    background: #2C5993;
+}
+
+.page-shop {
+    background: white;
 }
 
 @keyframes rotating {
@@ -115,8 +128,16 @@ body {
     line-height: 40px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #DC302B;
+    color: white;
     text-decoration: none;
+}
+
+.page-home .menu-link {
+    color: #DC302B;
+}
+
+.page-shop .menu-link {
+    color: black;
 }
 
 .menu-link:hover {
@@ -124,21 +145,30 @@ body {
     cursor: url('data:image/svg+xml;charset=UTF-8,<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="16" cy="16" r="15" fill="white"/></svg>'), auto;
 }
 
-.bg-color.blue {
-    background: #2C5993;
-}
-
-.bg-clolor.red {
-    background: #DC302B;
-}
-
-.bg-color.pink {
-    background: #EFA3C0;
+.page-shop .menu-link:hover {
+    cursor: url('data:image/svg+xml;charset=UTF-8,<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="16" cy="16" r="15" fill="#DC302B"/></svg>'), auto;
 }
 
 #container {
     max-width: 1400px;
     margin: auto;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - var(--scrollbar-width));
+    min-width: 100vw;
+    scroll-snap-align: start;
 }
 
 .grid {

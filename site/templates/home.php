@@ -16,8 +16,9 @@
         <div id="container">
             <section>
                 <div class="layer">
-                    <h1><?= $page->title() ?></h1>
-                    <?= $page->text() ?>
+                    <h1>
+                        <?php if ($coverImage = $page->files()->findBy('template', 'logo')) {echo $coverImage->url();} ?>
+                    </h1>
                 </div>
             </section>
         </div>

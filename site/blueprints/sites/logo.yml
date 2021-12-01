@@ -1,0 +1,5 @@
+title: Logo
+fields:
+  alt:
+    label: Alt Text
+    type: text
