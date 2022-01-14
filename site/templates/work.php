@@ -5,12 +5,19 @@
             </nav>
         </header>
         <div id="container">
-            <section>
-                <div class="layer">
-                    <h1><?= $page->title() ?></h1>
-                    <?= $page->text() ?>
-                    <div class="grid grid-2"></div>
-                </div>
-            </section>
+            <main>
+                <section>
+                    <div class="layer">
+                        <div class="intro">
+                            <?= $page->text()->kirbytext() ?>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="grid grid-2">
+                        <div class="grid-item"></div>
+                    </div>
+                </section>
+            </main>
         </div>
 <?php snippet('footer') ?>

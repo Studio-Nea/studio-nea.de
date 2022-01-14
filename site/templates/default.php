@@ -12,20 +12,17 @@
                     <a class="menu-link studio" href="<?= $site->url() ?>/studio">Studio</a>
                 </div>           
             </nav>
+            <a class="switch" href="#"></a>
         </header>
         <div id="container">
-            <section>
-                <div class="layer">
-                    <h1><?= $page->title() ?></h1>
-                    <?= $page->text() ?>
-                </div>
-            </section>
-            <section>
-                <div class="layer">
-                    <div class="grid grid-2">
-                        <div class="grid-item"></div>
+            <main>
+                <section>
+                    <div class="layer">
+                        <div class="intro">
+                            <?= $page->text()->kirbytext() ?>
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </main>
         </div>
 <?php snippet('footer') ?>

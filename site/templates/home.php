@@ -12,14 +12,16 @@
                     <a class="menu-link studio" href="<?= $site->url() ?>/studio">Studio</a>
                 </div>           
             </nav>
+            <a class="switch" href="#"></a>
+            <a class="journal" href="<?= $site->url() ?>/journal"></a>
         </header>
         <div id="container">
-            <section>
-                <div class="layer">
-                    <h1>
-                        <?php if ($coverImage = $page->files()->findBy('template', 'logo')) {echo $coverImage->url();} ?>
-                    </h1>
-                </div>
-            </section>
+            <main>
+                <section>
+                    <div class="layer">
+                        <h1></h1>
+                    </div>
+                </section>
+            </main>
         </div>
 <?php snippet('footer') ?>

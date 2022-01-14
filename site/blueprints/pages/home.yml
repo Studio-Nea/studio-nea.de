@@ -1,7 +1,2 @@
 title: Home
 preset: page
-logo:
-  type: files
-  headline: Logo
-  max: 1
-  template: logo

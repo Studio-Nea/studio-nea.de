@@ -5,19 +5,3 @@ fields:
     label: Intro
     type: textarea
     size: large
-  textfirst:
-    label: Erste Spalte
-    type: textarea
-    width: 1/4
-  textsecond:
-    label: Zweite Spalte
-    type: textarea
-    width: 1/4
-  textthird:
-    label: Dritte Spalte
-    type: textarea
-    width: 1/4
-  textfourth:
-    label: Vierte Spalte
-    type: textarea
-    width: 1/4

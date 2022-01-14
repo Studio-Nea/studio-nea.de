@@ -10,5 +10,4 @@
     </head>
     <body class="page-<?= $page->uid() ?>">
         <header>
-            <a class="switch" href="#"></a>
             <nav class="menu">

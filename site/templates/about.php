@@ -1,9 +1,9 @@
 <?php snippet('header') ?>
                 <div class="menu-item right rotate">
-                    <a class="menu-link studio" href="<?= $site->url() ?>/studio">Studio</a>
+                    <a class="menu-link start" href="<?= $site->url() ?>">Start</a>
                 </div>
                 <div class="menu-item left rotate">
-                    <a class="menu-link start" href="<?= $site->url() ?>">Start</a>
+                    <a class="menu-link contact" href="<?= $site->url() ?>/contact">Contact</a>
                 </div>           
             </nav>
             <a class="switch" href="#"></a>
@@ -12,14 +12,14 @@
             <main>
                 <section>
                     <div class="layer">
-                        <div class="intro mask">
+                        <div class="intro">
                             <?= $page->text()->kirbytext() ?>
                         </div>
                     </div>
                 </section>
                 <section>
                     <div class="layer">
-                        <div class="grid grid-3">
+                        <div class="grid grid-5">
                             <div class="grid-item">
                                 <?= $page->textfirst()->kt() ?>
                             </div>
@@ -28,6 +28,12 @@
                             </div>
                             <div class="grid-item">
                                 <?= $page->textthird()->kt() ?>
+                            </div>
+                            <div class="grid-item">
+                                <?= $page->textfourth()->kt() ?>
+                            </div>
+                            <div class="grid-item">
+                                <?= $page->textfifth()->kt() ?>
                             </div>
                         </div>
                     </div>

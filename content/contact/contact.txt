@@ -2,7 +2,7 @@ Title: Contact
 
 ----
 
-Textfirst: ...
+Textfirst: # Contact
 
 ----
 
@@ -17,7 +17,7 @@ Brabandtstraße 8
 
 Textthird:
 
-hallo@studio-nea.de
+(email: hallo@studio-nea.de text: hallo@studio-nea.de title: E-Mail an Studio Nea class: email)
 0531 29 59 82 06
-Instagram @lookingfornea
-Facebook @studioNEA
+Instagram (link: https://www.instagram.com/lookingfornea/ text: @lookingfornea title: Studio Nea auf Instagram target: _blank class: instagram)
+Facebook (link: https://www.facebook.com/studioNEA text: @ studioNEA title: Studio Nea auf Facebook target: _blank class:  facebook)

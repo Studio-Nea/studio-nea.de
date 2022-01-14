@@ -12,8 +12,19 @@
             <main>
                 <section>
                     <div class="layer">
-                        <div class="intro">
-                            <?= $page->text()->kirbytext() ?>
+                        <div class="grid grid-4">
+                            <div class="grid-item">
+                                <?= $page->textfirst()->kt() ?>
+                            </div>
+                            <div class="grid-item">
+                                <?= $page->textsecond()->kt() ?>
+                            </div>
+                            <div class="grid-item">
+                                <?= $page->textthird()->kt() ?>
+                            </div>
+                            <div class="grid-item">
+                                <?= $page->textfourth()->kt() ?>
+                            </div>
                         </div>
                     </div>
                 </section>
