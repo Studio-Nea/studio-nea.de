@@ -6,41 +6,41 @@ Text: Mit starkem Fokus auf Art Direction, Graphic, Editorial Design, Corporate 
 
 ----
 
-Textfirst: Work fields Playground
+Textfirst: # Work fields playground
 
 ----
 
 Textsecond:
 
-Strategy
-Concept
-Art Direction
-Campaigns
+- Strategy
+- Concept
+- Art Direction
+- Campaigns
 
 ----
 
 Textthird:
 
-Branding
-Corporate Design
-Editorial Design
-Typogaphie
-Text
+- Branding
+- Corporate Design
+- Editorial Design
+- Typogaphie
+- Text-
 
 ----
 
 Textfourth:
 
-Graphic Design
-Graphic Illustration
-Infographic
-Packaging
+- Graphic Design
+- Graphic Illustration
+- Infographic
+- Packaging
 
 ----
 
 Textfifth:
 
-Transformation Design
-Wayfinding
-Signage
-Exhibitiondesign
+- Transformation Design
+- Wayfinding
+- Signage
+- Exhibitiondesign

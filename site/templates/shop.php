@@ -7,7 +7,7 @@
                 <div class="scroll-content">    
                     <div class="scroll-title">
                         <span>Shop Chummy Shit</span>
-                        <span id="demo"> • Shop Chummy Shit</span>
+                        <span id="ticker"></span>
                     </div>
                 </div>
             </div>
@@ -30,4 +30,4 @@
                 </section>
             </main>
         </div>
-<?php snippet('footer') ?>
+<?php snippet('footer-shop') ?>

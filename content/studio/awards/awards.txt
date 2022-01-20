@@ -4,7 +4,7 @@ Title: Awards
 
 Textfirst:
 
-Awards
+## Awards
 
 German Design Award. Special 2021
 Excellent Communication Design
@@ -54,32 +54,34 @@ Nominee 2013
 
 Textthird:
 
-Veröffentlichungen
+## Veröffentlichungen
 
 2021 | 01 PAGE
 Charmant verkauft vs. expressiv-emotional. Wabernde Algorithmen
 
-2021 German Deign Award Katalog
+2021 | German Deign Award Katalog
 Excellent Communications Design
 phaenomenale
 
 2020 | 12 form 290
 Team und Design. (K)ein gutes Team?
 
-2019 German Design Award Katalog
+2019 | German Design Award Katalog
 Excellent Communications Design
 Anstifter
 
-2016 Klingspor Museum Offenbach — Jedes Buch ein neuer Anfang. Ulrike Stoltz: Eine Anthologie aus 25 Jahren Unterrichtin Typografie und Buchgestaltung
+2016 | Klingspor Museum Offenbach — Jedes Buch ein neuer Anfang. 
+
+Ulrike Stoltz: Eine Anthologie aus 25 Jahren Unterricht in Typografie und Buchgestaltung
 Div. Bücher / Magazine in Sammelausstellung
 
 ----
 
 Textfourth:
 
-2016 Munich Creative Business Week Creative Demo-Night. Das Projekt EIN LADEN _
+2016 | Munich Creative Business Week Creative Demo-Night. Das Projekt EIN LADEN _
 
-2015|11 PAGE
+2015 | 11 PAGE
 Portfolio des Monats
 
 2015 agenda design 1Sichtbarkeit. Projektor. Nea
@@ -90,7 +92,5 @@ Das Projekt EIN LADEN _
 2013 | 07 Novum
 Das Projekt EIN LADEN _
 
-2013 zwei|viertel
+2013 | zwei|viertel
 Das Projekt EIN LADEN _
-
-----

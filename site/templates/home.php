@@ -12,7 +12,7 @@
                     <a class="menu-link studio" href="<?= $site->url() ?>/studio">Studio</a>
                 </div>           
             </nav>
-            <a class="switch" href="#"></a>
+            <div onclick="switchbody()" class="switch" href="#"></div>
             <a class="journal" href="<?= $site->url() ?>/journal"></a>
         </header>
         <div id="container">

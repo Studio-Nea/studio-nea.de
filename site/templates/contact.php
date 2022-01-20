@@ -6,7 +6,7 @@
                     <a class="menu-link start" href="<?= $site->url() ?>">Start</a>
                 </div>           
             </nav>
-            <a class="switch" href="#"></a>
+            <div onclick="switchbody()" class="switch" href="#"></div>
         </header>
         <div id="container">
             <main>

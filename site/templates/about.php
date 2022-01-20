@@ -6,7 +6,7 @@
                     <a class="menu-link contact" href="<?= $site->url() ?>/contact">Contact</a>
                 </div>           
             </nav>
-            <a class="switch" href="#"></a>
+            <div onclick="switchbody()" class="switch" href="#"></div>
         </header>
         <div id="container">
             <main>

@@ -1,2 +1,4 @@
-const ticker = ' • Shop Chummy Shit';
-console.log(`${ticker.repeat(27)}`);
+function switchbody() {
+    var element = document.getElementById("page");
+    element.classList.toggle("switched");
+}
