@@ -1,9 +1,11 @@
 <?php snippet('header') ?>
                 <div class="menu-item right rotate">
                     <a class="menu-link studio" href="<?= $site->url() ?>/studio">Studio</a>
+                    <div class="menu-tease right studio"></div>
                 </div>
                 <div class="menu-item left rotate">
                     <a class="menu-link start" href="<?= $site->url() ?>">Start</a>
+                    <div class="menu-tease left start"></div>
                 </div>           
             </nav>
             <div onclick="switchbody()" class="switch" href="#"></div>

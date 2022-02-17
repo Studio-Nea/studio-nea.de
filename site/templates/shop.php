@@ -1,6 +1,7 @@
 <?php snippet('header') ?>
                 <div class="menu-item bottom horizontal">
                     <a class="menu-link start" href="<?= $site->url() ?>">Start</a>
+                    <div class="menu-tease bottom start"></div>
                 </div>         
             </nav>
             <div class="scroll">
