@@ -2,11 +2,11 @@ Title: About
 
 ----
 
-Text: Mit starkem Fokus auf Art Direction, Graphic, Editorial Design, Corporate Identity und innovativen digitalen Anwendungen widmet sich das Studio kulturellen und kommerziellen Projekten gleichermaßen. Mit Form, Farbe, Schrift und Code schafft Nea einzigartige visuelle Erzählungen, die die Werte und die Authentizität ihrer Kunden stärken.
+Text: **Mit starkem Fokus auf Art Direction, Graphic, Editorial Design, Corporate Identity und innovativen digitalen Anwendungen widmet sich das Studio kulturellen und kommerziellen Projekten gleichermaßen.** Mit Form, Farbe, Schrift und Code schafft Nea einzigartige visuelle Erzählungen, die die Werte und die Authentizität ihrer Kunden stärken.
 
 ----
 
-Textfirst: # Work fields playground
+Textfirst: # **Work fields** playground
 
 ----
 

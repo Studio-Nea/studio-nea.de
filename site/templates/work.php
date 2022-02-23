@@ -4,7 +4,7 @@
                     <div class="menu-tease top start"></div>
                 </div> 
                 <div class="menu-item bottom horizontal">
-                    <a class="menu-link shop" href="<?= $site->url() ?>">Shop</a>
+                    <a class="menu-link shop" href="<?= $site->url() ?>/shop">Shop</a>
                     <div class="menu-tease bottom shop"></div>
                 </div>          
             </nav>

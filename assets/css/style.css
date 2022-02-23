@@ -257,6 +257,10 @@ body {
     left: 50%;
 }
 
+.page-about .menu-link.contact {
+    font-family: 'GT-Haptik-Regular';
+}
+
 .menu-item.left .menu-link {
     transform: translateX(-50%) translateY(-50%) rotate(-90deg);
 }
@@ -377,6 +381,10 @@ body {
     letter-spacing: 0.5rem;
 }
 
+.page-about h1 strong {
+    font-family: 'GT-Haptik-Regular-Rotalic';
+}
+
 .scroll {
     position: relative;
     width: 100%;
@@ -429,8 +437,13 @@ body {
 }
 
 .intro {
+    font-family: 'GT-Haptik-Light';
     font-size: 2.375rem;
     line-height: 3.75rem;
+}
+
+.intro strong {
+    font-family: 'GT-Haptik-Regular';
 }
 
 .intro p {
