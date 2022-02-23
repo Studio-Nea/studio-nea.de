@@ -157,6 +157,7 @@ body {
     font-family: 'GT-Haptik-Regular';
     font-size: 0.938rem;
     line-height: 1.563rem;
+    letter-spacing: 0.1rem;
     display: grid;
     background: #EFA3C0;
     color: white;
@@ -268,7 +269,7 @@ body {
     font-size: 2.5rem;
     line-height: 2.5rem;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 1rem;
     color: white;
 }
 
@@ -373,10 +374,11 @@ body {
     font-size: 1.25rem;
     line-height: 2.5rem;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 0.5rem;
 }
 
 .scroll {
+    position: relative;
     width: 100%;
     height: 10.938rem;
     margin: 0 auto;
@@ -384,6 +386,7 @@ body {
     overflow: hidden;
     white-space: nowrap;
     background-color: #e74c3c;
+    z-index: 10;
 }
 
 .scroll-content {
@@ -469,18 +472,74 @@ body {
     grid-template-areas: ". . . . .";
 }
 
-@media (max-width: 87.5em) {
+@media (max-width: 90em) {
+    #container {
+        padding: 0 6.25rem;
+    } 
+
+    .menu-link {
+        font-size: 1.563rem;
+        line-height: 1.563rem;
+        letter-spacing: 0.5rem;
+    }
     
+    .intro {
+        font-size: 1.875rem;
+        line-height: 2.9375rem;
+    }
+
+    .menu-item.horizontal {
+        height: 1.563rem;
+    }
+    
+    .menu-item.horizontal.top {
+        top: 1.563rem;
+    }
+    
+    .menu-item.horizontal.bottom {
+        bottom: 1.563rem;
+    }
+    
+    .menu-item.rotate {
+        width: 1.563rem;
+    }
+    
+    .menu-item.right {
+        right: 1.563rem;
+    }
+    
+    .menu-item.left {
+        left: 1.563rem;
+    }
+
+    .switch {
+        top: 2.5rem;
+        right: 2.5rem;
+    }
 }
 
 @media (max-width: 64em) {
+    .grid-4 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: ". .";
+    }
     
+    .grid-5 {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: ". . .";
+    }
 }
 
 @media (max-width: 37.5em) {
-    
+    .grid-3, .grid-4, .grid-5 {
+        grid-template-columns: 1fr;
+        grid-template-areas: ".";
+    }
 }
 
 @media (max-width: 20em) {
-    
+    .intro {
+        font-size: 0.9375rem;
+        line-height: 1.5625rem;
+    }
 }

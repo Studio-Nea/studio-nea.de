@@ -1,4 +1,8 @@
 <?php snippet('header') ?>
+                <div class="menu-item top horizontal">
+                    <a class="menu-link work" href="<?= $site->url() ?>/work">Work</a>
+                    <div class="menu-tease top work"></div>
+                </div>
                 <div class="menu-item bottom horizontal">
                     <a class="menu-link start" href="<?= $site->url() ?>">Start</a>
                     <div class="menu-tease bottom start"></div>

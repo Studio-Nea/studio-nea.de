@@ -2,6 +2,10 @@
                 <div class="menu-item top horizontal">
                     <a class="menu-link start" href="<?= $site->url() ?>">Start</a>
                     <div class="menu-tease top start"></div>
+                </div> 
+                <div class="menu-item bottom horizontal">
+                    <a class="menu-link shop" href="<?= $site->url() ?>">Shop</a>
+                    <div class="menu-tease bottom shop"></div>
                 </div>          
             </nav>
         </header>
