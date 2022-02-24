@@ -155,8 +155,8 @@ html {
 
 body {
     font-family: 'GT-Haptik-Regular';
-    font-size: 0.938rem;
-    line-height: 1.563rem;
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
     letter-spacing: 0.1rem;
     display: grid;
     background: #EFA3C0;
@@ -257,10 +257,6 @@ body {
     left: 50%;
 }
 
-.page-about .menu-link.contact {
-    font-family: 'GT-Haptik-Regular';
-}
-
 .menu-item.left .menu-link {
     transform: translateX(-50%) translateY(-50%) rotate(-90deg);
 }
@@ -270,10 +266,11 @@ body {
 }
 
 .menu-link {
+    font-family: 'GT-Haptik-Regular';
     font-size: 2.5rem;
     line-height: 2.5rem;
     text-transform: uppercase;
-    letter-spacing: 1rem;
+    letter-spacing: 0.75rem;
     color: white;
 }
 
@@ -363,7 +360,7 @@ body {
 #container {
     max-width: 120rem;
     margin: auto;
-    padding: 0 10rem;
+    padding: 0 15rem;
 }
 
 .page-home h1 {
@@ -374,15 +371,11 @@ body {
 }
 
 .page-contact h1, .page-about h1 {
-    font-family: 'GT-Haptik-Medium-Rotalic';
+    font-family: 'GT-Haptik-Regular-Rotalic';
     font-size: 1.25rem;
     line-height: 2.5rem;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
-}
-
-.page-about h1 strong {
-    font-family: 'GT-Haptik-Regular-Rotalic';
 }
 
 .scroll {
@@ -442,10 +435,6 @@ body {
     line-height: 3.75rem;
 }
 
-.intro strong {
-    font-family: 'GT-Haptik-Regular';
-}
-
 .intro p {
     margin: 0 0 3.75rem 0;
 }
@@ -459,10 +448,7 @@ body {
     grid-template-rows: 1fr;
     gap: 0 2.5rem;
     grid-auto-flow: row;
-}
-
-.page-about .grid-item:nth-child(odd) {
-    font-family: 'GT-Haptik-Light'
+    font-family: 'GT-Haptik-Light';
 }
 
 .grid-2 {
@@ -543,7 +529,52 @@ body {
     }
 }
 
+@media (max-width: 48em) {
+    
+}
+
 @media (max-width: 37.5em) {
+    .switch {
+        width: 4.688rem;
+        height: 4.688rem;
+        background-size: 100% !important;
+    }
+
+    .menu-link {
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+        letter-spacing: 0.5rem;
+    }
+
+    .menu-item.horizontal {
+        height: 1.25rem;
+    }
+    
+    .menu-item.horizontal.top {
+        top: 1.25rem;
+    }
+    
+    .menu-item.horizontal.bottom {
+        bottom: 1.25rem;
+    }
+    
+    .menu-item.rotate {
+        width: 1.25rem;
+    }
+    
+    .menu-item.right {
+        right: 1.25rem;
+    }
+    
+    .menu-item.left {
+        left: 1.25rem;
+    }
+
+    .intro {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+
     .grid-3, .grid-4, .grid-5 {
         grid-template-columns: 1fr;
         grid-template-areas: ".";
@@ -551,8 +582,5 @@ body {
 }
 
 @media (max-width: 20em) {
-    .intro {
-        font-size: 0.9375rem;
-        line-height: 1.5625rem;
-    }
+    
 }
