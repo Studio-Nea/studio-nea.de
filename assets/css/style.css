@@ -69,6 +69,11 @@
     text-rendering: optimizeLegibility;
 }
 
+:root {
+    --gt-haptik-light-ss04: "ss04" on;
+    font-feature-settings: var(--gt-haptik-light-ss04);
+}
+
 *:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
     all: unset;
     display: revert;
