@@ -1,3 +1,4 @@
+        <div class="cursor"></div>
         <footer>
 
         </footer>
