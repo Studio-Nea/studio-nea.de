@@ -35,4 +35,4 @@
                 </section>
             </main>
         </div>
-<?php snippet('footer-shop') ?>
+<?php snippet('footer') ?>

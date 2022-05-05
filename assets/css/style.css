@@ -71,7 +71,8 @@
 
 :root {
     --gt-haptik-light-ss04: "ss04" on;
-    font-feature-settings: var(--gt-haptik-light-ss04);
+    --gt-haptik-light-rotalic-ss03: "ss04" on;
+    font-feature-settings: var(--gt-haptik-light-ss04), var(--gt-haptik-light-rotalic-ss04);
 }
 
 *:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
@@ -167,6 +168,7 @@ html {
     border-radius: 50%;
     mix-blend-mode: difference;
     background: white;
+    z-index: 100;
 }
 
 .cursor.click {
@@ -304,6 +306,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.75rem;
     color: white;
+    z-index: 10;
 }
 
 .page-home .menu-link {
@@ -325,6 +328,7 @@ body {
 
 .menu-tease {
     position: absolute;
+    z-index: 5;
 }
 
 .menu-tease.left, .menu-tease.right {
@@ -555,6 +559,46 @@ section .intro a {
         left: 1.563rem;
     }
 
+    .menu-tease.left, .menu-tease.right {
+        width: 0.75rem;
+    }
+
+    .menu-tease.top, .menu-tease.bottom {
+        height: 0.75rem;
+    }
+
+    .menu-tease.left {
+        left: -2.3rem;
+    }
+    
+    .menu-item.left:hover .menu-tease.left {
+        left: -1.6rem;
+    }
+    
+    .menu-tease.top {
+        top: -2.3rem;
+    }
+
+    .menu-item.top:hover .menu-tease.top {
+        top: -1.6rem;
+    }
+
+    .menu-tease.right {
+        right: -2.3rem;
+    }
+    
+    .menu-item.right:hover .menu-tease.right {
+        right: -1.6rem;
+    }
+    
+    .menu-tease.bottom {
+        bottom: -2.3rem;
+    }
+    
+    .menu-item.bottom:hover .menu-tease.bottom {
+        bottom: -1.6rem;
+    }
+
     .switch {
         top: 2.5rem;
         right: 2.5rem;
@@ -570,6 +614,13 @@ section .intro a {
     .grid-5 {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: ". . .";
+    }
+}
+
+@media (max-width: 56.25em) {
+    .grid-3 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: ". .";
     }
 }
 
@@ -622,6 +673,48 @@ section .intro a {
     .grid-3, .grid-4, .grid-5 {
         grid-template-columns: 1fr;
         grid-template-areas: ".";
+    }
+}
+
+@media (max-width: 30em) {
+    .menu-item.left {
+        left: 0;
+    }
+
+    .menu-item.right {
+        right: 0;
+    }
+
+    .menu-tease.left, .menu-tease.right {
+        width: 1.25rem;
+    }
+
+    .menu-tease.top, .menu-tease.bottom {
+        height: 1.25rem;
+    }
+
+    .menu-tease.left {
+        left: 0;
+    }
+    
+    .menu-item.left:hover .menu-tease.left {
+        left: 0;
+    }
+    
+    .menu-tease.top {
+        display: none;
+    }
+
+    .menu-tease.right {
+        right: 0;
+    }
+    
+    .menu-item.right:hover .menu-tease.right {
+        right: 0;
+    }
+    
+    .menu-tease.bottom {
+        display: none;
     }
 }
 
