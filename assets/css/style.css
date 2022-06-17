@@ -192,7 +192,6 @@ body {
     font-size: 0.9375rem;
     line-height: 1.5625rem;
     letter-spacing: 0.1rem;
-    display: grid;
     background: #EFA3C0;
     color: white;
 }
@@ -394,7 +393,11 @@ body {
 }
 
 #container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
     max-width: 120rem;
+    height: 100%;
     margin: auto;
     padding: 0 15rem;
 }
@@ -497,6 +500,8 @@ section .intro a {
     gap: 0 2.5rem;
     grid-auto-flow: row;
     font-family: 'GT-Haptik-Light';
+    justify-items: center;
+    align-items: center;
 }
 
 .grid-2 {
@@ -533,6 +538,10 @@ section .intro a {
     .intro {
         font-size: 1.875rem;
         line-height: 2.9375rem;
+    }
+
+    .intro p {
+        margin: 0 0 2.9375rem 0;
     }
 
     .menu-item.horizontal {
@@ -612,8 +621,13 @@ section .intro a {
     }
     
     .grid-5 {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: ". . .";
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: ". . . .";
+    }
+
+    .grid-5 .grid-item:first-child {
+        grid-column: 1 / -1;
+        margin: 0  0 2.5rem 0;
     }
 }
 
@@ -624,8 +638,20 @@ section .intro a {
     }
 }
 
-@media (max-width: 48em) {
-    
+@media (max-width: 50em) {
+    .intro {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .intro p {
+        margin: 0 0 1.875rem 0;
+    }
+
+    .grid-5 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: ". .";
+    }
 }
 
 @media (max-width: 37.5em) {
@@ -666,8 +692,12 @@ section .intro a {
     }
 
     .intro {
-        font-size: 1.125rem;
-        line-height: 1.75rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .intro p {
+        margin: 0 0 1.5rem 0;
     }
 
     .grid-3, .grid-4, .grid-5 {
