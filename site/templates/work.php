@@ -12,16 +12,17 @@
         <div id="container">
             <main>
                 <section>
-                    <div class="layer">
-                        <div class="intro">
-                            <?= $page->text()->kirbytext() ?>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <div class="grid grid-2">
-                        <div class="grid-item"></div>
-                    </div>
+                    <h1><?= $data->title() ?></h1>
+                    <?= $data->text()->kirbytext() ?>
+                    <ul>
+                        <?php foreach($data->children()->listed() as $project): ?>
+                        <li>
+                            <figure>
+                                <img src="<?= $project->image()->url() ?>" alt="<?= $project->title() ?>">
+                            </figure>
+                        </li>
+                        <?php endforeach ?>
+                    </ul>
                 </section>
             </main>
         </div>
